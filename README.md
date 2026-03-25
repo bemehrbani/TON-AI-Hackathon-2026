@@ -4,7 +4,7 @@
 
 ## What is ONTON?
 
-[ONTON](https://onton.live) is a Telegram-native event platform on the TON blockchain with **931,000+ registered users** and **2,400+ events**. Users earn reputation through event participation, community engagement, and SBT attestations.
+[ONTON](https://onton.live) is a Telegram-native event platform on the TON blockchain with **930K+ registered users**, **3M+ wallet addresses**, **3,000+ events**, **12M+ SBT records**, and **5,000+ NFT tickets** minted. Users earn reputation through event participation, community engagement, and on-chain attestations.
 
 This hackathon project exposes ONTON's production reputation data as **API infrastructure for AI agents** and demonstrates a **Telegram-native AI Concierge Bot** that leverages this data.
 
@@ -128,9 +128,11 @@ TON-AI-Hackathon-2026/
 ## 📊 Live Data
 
 This project connects to ONTON's **production database** containing:
-- **931,303** registered users
-- **495,195** connected wallets
-- **2,415** events
+- **930K+** registered users
+- **3M+** wallet addresses across the ecosystem
+- **12M+** SBT attestation records
+- **3,000+** events (online & in-person)
+- **5,000+** NFT tickets minted
 - Real reputation scores up to **233,786 points**
 
 ---
