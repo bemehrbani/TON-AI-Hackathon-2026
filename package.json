@@ -1,0 +1,23 @@
+{
+  "name": "onton-ai-hackathon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ONTON Reputation API, Agent SDK & AI Concierge — TON AI Agent Hackathon 2026",
+  "license": "MIT",
+  "workspaces": [
+    "packages/api",
+    "packages/sdk",
+    "packages/concierge"
+  ],
+  "scripts": {
+    "dev:api": "npm run dev -w packages/api",
+    "dev:bot": "npm run dev -w packages/concierge",
+    "build": "npm run build -w packages/sdk && npm run build -w packages/api && npm run build -w packages/concierge",
+    "build:api": "npm run build -w packages/api",
+    "build:sdk": "npm run build -w packages/sdk",
+    "build:bot": "npm run build -w packages/concierge"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

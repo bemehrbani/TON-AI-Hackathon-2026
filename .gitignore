@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+*.env.local
+demo-recorder/demo-video/
+demo-recorder/telegram-session/
+*.webm
+.DS_Store
